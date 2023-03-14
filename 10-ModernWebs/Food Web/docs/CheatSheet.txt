@@ -1,0 +1,6 @@
+ --> Bunch of Icons (elements) when they have [ position absolute ]
+ /*scale = 0 to hide icons*/
+  transform: translate(-50%, -50%) scale(0);
+
+ /*scale = 1 to show icons*/
+  transform: translate(-50%, -50%) scale(0);

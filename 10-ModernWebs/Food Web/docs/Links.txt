@@ -1,0 +1,17 @@
+
+Popular Extensions for Visual Studio Code:
+ - Live Server
+ - Prettier - Code formatter
+ - HTML to CSS autocompletion
+ - Rainbow Brackets
+ - Auto Rename Tag
+ - ES7 React/Redux/GraphQL/React-Native snippets
+
+Popular Themes for Visual Studio Code:
+ - An old Hope with italics
+ - Bluloco Dark Theme
+ - Code Blue
+ - Material Icon Theme
+ - Monokai Pro
+
+
