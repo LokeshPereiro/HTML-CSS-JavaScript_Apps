@@ -94,7 +94,7 @@ html {
 }
 
 .navbar-link {
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 700;
   letter-spacing: 0.2rem;
   color: #fff;
@@ -114,17 +114,17 @@ html {
   font-size: 8rem;
   font-family: "Monoton", cursive;
   position: absolute;
-  top: 18vw;
+  top: 20vw;
   left: 50%;
   transform: translateX(-50%);
   text-shadow: 0.3rem 0.3rem 0.3rem #888;
   color: #fff;
-  background-color: #fff;
+  background-color: #000;
+  opacity: 0.5;
   width: 85rem;
   text-align: center;
-  padding: 0.8rem 1.6rem;
+  padding: 1rem 1.6rem;
   border-radius: 0.8rem;
-  opacity: 0.9;
 }
 
 .logo {
@@ -137,8 +137,6 @@ html {
   border-radius: 50%;
   box-shadow: 1rem 1rem 3rem #333;
 }
-
-/* End of Section 1 */
 
 /* Section 2 */
 .section-2 {
@@ -213,7 +211,6 @@ html {
   font-size: 2rem;
   font-weight: 700;
 }
-/* End of Section 2 */
 
 /* Section 3 */
 .section-3 {
@@ -256,6 +253,8 @@ html {
 
 .team-member-img {
   width: 100%;
+  object-fit: cover;
+  height: 40rem;
   border-radius: 0.5rem;
 }
 
