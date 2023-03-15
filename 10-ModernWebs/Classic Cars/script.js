@@ -1,28 +1,29 @@
-document.querySelector('.menu').addEventListener('click', ()=> { //Escuchamos el click en el menu
-
-    document.querySelectorAll('.target').forEach((item)=> { //Seleccionamos la clase target que encontremos
-
-        item.classList.toggle("change"); //Añadimos la clase 'change' a los elementos que no la tiene, al mismo tiempo se lo quitamos a los elentos que sí la tienen
-    })
+// Listen to click on menu icon
+document.querySelector(".menu").addEventListener("click", () => {
+  // Now get all 'target' named elements (section), and then add them toggle class 'change' for rotation
+  document.querySelectorAll(".target").forEach((item) => {
+    item.classList.toggle("change");
+  });
 });
 
-//Selcciones
-document.querySelectorAll('.wrapper').forEach((item)=> {
-    item.addEventListener('click', ()=> {
-        document.querySelectorAll('.target').forEach((item)=> { 
+//Same logic as prev
+document.querySelectorAll(".wrapper").forEach((item) => {
+  item.addEventListener("click", () => {
+    document.querySelectorAll(".target").forEach((item) => {
+      // We do this, by default all sections have change class due to click on menu btn, so apart from deleting this class when clicked on menu btn, now we have possiblities to do same on sections elements
+      //
+      item.classList.remove("change");
+    });
+  });
+});
 
-            item.classList.remove("change"); 
-        })
-    })
-});//De esta manera, si damos  click en el menu se deplazarán las selcciones. Y si volvemos a dar click en la seccion, oculta el menu
+const videos = document.querySelectorAll(".video");
 
-const videos = document.querySelectorAll('.video');
-
-videos.forEach((video)=> {
-    video.addEventListener('mouseover', ()=> {
-        video.play();
-    })
-    video.addEventListener('mouseout', ()=> {
-        video.pause();
-    })
+videos.forEach((video) => {
+  video.addEventListener("mouseover", () => {
+    video.play();
+  });
+  video.addEventListener("mouseout", () => {
+    video.pause();
+  });
 });
