@@ -12,10 +12,12 @@ In this repo you will come across with some modern and beautiful websites templa
 
 ### Demo
 
--->
+--> https://lok-creative-web-design.netlify.app/
 
 ### Screenshots
 
-![Food Web](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/10-ModernWebs/Food%20Web/wireframe/toggleMenu.png?raw=true)
+![Modern Web](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/10-ModernWebs/CreativeDesign/wireframe/Landing-Page.png?raw=true)
 
-![Food Web](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/10-ModernWebs/Food%20Web/wireframe/hoverPhotos.png?raw=true)
+![Modern Web](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/10-ModernWebs/CreativeDesign/wireframe/team-members.png?raw=true)
+
+![Modern Web](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/10-ModernWebs/CreativeDesign/wireframe/customers.png?raw=true)
