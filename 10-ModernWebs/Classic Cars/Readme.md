@@ -11,12 +11,12 @@ In this repo you will come across with some modern and beautiful websites templa
 
 ### Demo
 
-<!-- --> https://lok-creative-web-design.netlify.app/ -->
+ --> https://lok-classic-cars.netlify.app
 
 ### Screenshots
 
-<!-- ![Modern Web](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/10-ModernWebs/CreativeDesign/wireframe/Landing-Page.png?raw=true)
+![Classic Cars](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/10-ModernWebs/Classic%20Cars/wireframe/video-gallery.png?raw=true)
 
-![Modern Web](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/10-ModernWebs/CreativeDesign/wireframe/team-members.png?raw=true)
+![Classic Cars](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/10-ModernWebs/Classic%20Cars/wireframe/3d-sections.png?raw=true)
 
-![Modern Web](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/10-ModernWebs/CreativeDesign/wireframe/customers.png?raw=true) -->
+
