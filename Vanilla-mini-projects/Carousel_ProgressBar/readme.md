@@ -1,11 +1,11 @@
-# Expanding Cards
+# Carousel And Progress Bar
 
-This mini project aims to build a small carousel of images imported from Unsplash.
+This mini project aims to build a small carousel of images imported from Unsplash and pure HTML, CSS and JS Progress Bar.
 
 ## Features
 
 - Cards/Images are styled with Flexbox
-- JavaScript for animation (adding and removing active class) when clicked to different cards
+- JavaScript for animation (adding and removing active class) when clicked to different cards or btns
 
 ### Demo
 
