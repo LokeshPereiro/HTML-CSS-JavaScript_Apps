@@ -9,10 +9,10 @@ This mini project aims to build a small carousel of images imported from Unsplas
 
 ### Demo
 
--->
+--> https://lok-carousel-progress.netlify.app/
 
 ### Screenshots
 
-<!-- ![Food Web](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/10-ModernWebs/Food%20Web/wireframe/toggleMenu.png?raw=true)
+![Mini Webs](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/Vanilla-mini-projects/Carousel_ProgressBar/wireframe/snapshot.png?raw=true)
 
-![Food Web](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/10-ModernWebs/Food%20Web/wireframe/hoverPhotos.png?raw=true) -->
+
