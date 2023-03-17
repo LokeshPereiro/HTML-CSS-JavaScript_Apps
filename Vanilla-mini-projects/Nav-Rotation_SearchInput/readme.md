@@ -13,4 +13,6 @@ This mini project aims to build an Article Web that has a rotating navigation ba
 
 ### Screenshots
 
-<!-- ![Mini Webs](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/Vanilla-mini-projects/Carousel_ProgressBar/wireframe/snapshot.png?raw=true) -->
+![Mini Webs](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/Vanilla-mini-projects/Nav-Rotation_SearchInput/wireframe/no-active-class.png?raw=true) 
+
+![Mini Webs](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/Vanilla-mini-projects/Nav-Rotation_SearchInput/wireframe/rotation.png?raw=true) 
