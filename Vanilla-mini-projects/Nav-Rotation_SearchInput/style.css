@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #333;
+  color: #222;
+  overflow-x: hidden;
+  text-decoration: none;
+  margin: 0;
+}
+
+/* Show-Hide Search styling */
+.search-container {
+  display: flex;
+  justify-content: end;
+}
+.search {
+  height: 30px;
+  position: relative;
+  box-shadow: 1px 1px 1px gray;
+}
+.search input {
+  /* background-color: #f3f5f1; */
+  background-color: #fff;
+  border: 0;
+  font-size: 18px;
+  padding: 15px;
+  height: 30px;
+  width: 30px;
+  transition: width 0.5s ease;
+}
+.search-btn {
+  /* background-color: #f3f5f1; */
+  background-color: #fff;
+  border: 0;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  transition: width 0.5s ease;
+}
+.search-container.active input {
+  width: 200px;
+}
+.search-container.active .search-btn {
+  transform: translateX(198px);
+  box-shadow: 1px 1px 1px gray;
+}
+
+/* End  --> Show-Hide Search styling */
+
+.container {
+  background-color: #fafafa;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+
+/* Fixed circle */
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+
+.circle {
+  background-color: #ff7979;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+/* Our nav is in body */
+.container.show-nav .circle {
+  /* So that we can see close btn */
+  transform: rotate(-70deg);
+}
+
+.circle button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background: transparent;
+  border: 0;
+  font-size: 26px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.circle button:focus {
+  outline: none;
+}
+
+.circle button#open {
+  left: 60%;
+}
+
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.content img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* Content */
+.content {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.content h1 {
+  margin: 0;
+}
+
+.content small {
+  color: #555;
+  font-style: italic;
+}
+
+.content p {
+  color: #333;
+  line-height: 1.5;
+}
+
+.container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 0.3s;
+}
+
+/* Nav */
+nav {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+nav ul li {
+  color: #fff;
+  margin: 40px 0;
+  /* To give movement */
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+nav ul li:hover {
+  color: #ff7979;
+}
+
+nav ul li i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* Giving margin 15px so that it goes to right in comparison to the first nav item  */
+nav ul li + li {
+  margin-left: 15px;
+  transform: translateX(-150%);
+}
+
+nav ul li + li + li {
+  margin-left: 30px;
+  transform: translateX(-200%);
+}
+
+footer {
+  color: #fafafa;
+  text-align: center;
+  padding: 5px;
+}
