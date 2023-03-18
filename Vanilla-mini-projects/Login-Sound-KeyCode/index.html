@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3 Mini Projects</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <a href="#login">Wavy Login</a>
+      <a href="#soundboard">SoundBoard</a>
+      <a href="#keycode">KeyCode</a>
+    </nav>
+    <!-- Wavy Login -->
+    <div class="wrapper">
+      <section class="login-container" id="login">
+        <h1>Please Login</h1>
+        <form>
+          <div class="form-control">
+            <input type="text" required />
+            <label>Email</label>
+          </div>
+
+          <div class="form-control">
+            <input type="password" required />
+            <label>Password</label>
+          </div>
+
+          <button class="btn">Login</button>
+
+          <p class="text">Don't have an account? <a href="#">Register</a></p>
+        </form>
+      </section>
+    </div>
+
+    <div class="wrapper">
+      <section class="sound-container" id="soundboard">
+        <h1 class="sound-heading"></h1>
+        <audio src="./assets/audios/applause.mp3" id="Applause"></audio>
+        <audio src="./assets/audios/boo.mp3" id="Boo"></audio>
+        <audio src="./assets/audios/gasp.mp3" id="Gasp"></audio>
+        <audio src="./assets/audios/tada.mp3" id="Tada"></audio>
+        <audio src="./assets/audios/victory.mp3" id="Victory"></audio>
+        <audio src="./assets/audios/wrong.mp3" id="Wrong"></audio>
+
+        <div id="buttons"></div>
+      </section>
+    </div>
+
+    <div class="wrapper">
+      <section class="key-container" id="keycode">
+        <h1>¡Pulsa cualquier boton del teclado!</h1>
+        <div id="insert">
+          <div class="key">
+            Press any keyboard button to get the keyCode and Code
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <a class="back-home" href="#login">
+      <i class="fa-solid fa-arrow-up" id="icon-up"></i>
+    </a>
+    <script src="app.js"></script>
+  </body>
+</html>
