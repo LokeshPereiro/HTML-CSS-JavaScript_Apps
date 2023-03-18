@@ -9,10 +9,10 @@ This mini project aims to build a BackgroundSlider section where our Carousel im
 
 ### Demo
 
--->
+-->  https://lok-backgroundslider-landingpage.netlify.app/
 
 ### Screenshots
 
-<!-- ![Mini Webs](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/Vanilla-mini-projects/Nav-Rotation_SearchInput/wireframe/no-active-class.png?raw=true)
+ ![Mini Webs](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/Vanilla-mini-projects/LandingPage_BackgroundSlider/wireframe/BackgroundSlider.png?raw=true)
 
-![Mini Webs](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/Vanilla-mini-projects/Nav-Rotation_SearchInput/wireframe/rotation.png?raw=true) -->
+![Mini Webs](https://github.com/LokeshPereiro/HTML-CSS-JavaScript_Apps/blob/main/Vanilla-mini-projects/LandingPage_BackgroundSlider/wireframe/Landing.png?raw=true) 
