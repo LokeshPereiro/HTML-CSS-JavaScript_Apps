@@ -37,7 +37,7 @@ function setActiveSlide() {
   slides[activeSlide].classList.add("active");
 }
 
-//
+// Landing  Page
 const left = document.querySelector(".left");
 const right = document.querySelector(".right");
 const container = document.querySelector(".container");
